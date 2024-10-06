@@ -3,3 +3,13 @@
     transition: 0.7s;
     cursor: pointer;
 }
+
+#mainContainer {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    #mainContainer {
+        width: 100%;
+    }
+}

@@ -61,7 +61,7 @@ const BmiCalculator = () => {
     return(
         <>
         <div className='bg-dark d-flex align-items-center ' style={{width:'100%', height:'100vh'}}>
-            <Container className='w-50 px-5 py-4 rounded shadow bg-light'>
+            <Container className='px-5 py-4 rounded shadow bg-light' id='mainContainer'>
                 <h2 className='text-center'>BMI CALCULATOR</h2>
                   <Form>
                     <Form.Group className='mt-3' controlId='formHeight'>
